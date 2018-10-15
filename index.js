@@ -18,4 +18,9 @@ function destructivelyUpdateDriverWithKeyAndValue(obj, key, value) {
      return newObj;
  }
    
+  function destructivelyDeleteFromDriverByKey(obj, key) {
+    delete obj[key];
+    return obj;
+  }
+    
     
